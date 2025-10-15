@@ -1,0 +1,16 @@
+name: mlops_env
+channels:
+  - defaults
+dependencies:
+  - python=3.10
+  - numpy
+  - pandas
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - joblib
+  - dvc
+  - pytest
+  - flake8
+  - black
+prefix: ./env
